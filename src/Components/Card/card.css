@@ -1,0 +1,83 @@
+.my-main-card{
+    height: 550px;
+    width: 350px;
+    background-color: rgb(98, 208, 241);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(24, 23, 23);
+
+}
+
+.heading{
+    height: 60px;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+.input-add-icon{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: red; */
+}
+.input-field{
+    height: 40px;
+    width: 220px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 5px solid rgb(71, 16, 175);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 5px;
+    text-align: center;
+}
+.add-icon{
+    font-size: 45px !important;
+    cursor: pointer;
+}
+.add-icon:hover{
+    color: green;
+}
+
+.all-items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px;
+    list-style: none;
+}
+.all-items li{
+    list-style: none;
+}
+.list-item-name{
+    font-size: 30px;
+    font-weight: 600;
+    color: purple;
+}
+.item-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.cancle-item{
+    font-size: 30px !important;
+    margin-right: 10px ;
+    margin-top: 5px;
+}
+.cancle-item:hover{
+    color: red;
+    cursor: pointer;
+}
